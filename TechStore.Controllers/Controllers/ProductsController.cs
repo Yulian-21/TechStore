@@ -22,7 +22,7 @@ public class ProductsController : ControllerBase
     private readonly IProductsService _productsService;
     private readonly BlobServiceClient _blobServiceClient;
     private readonly string _containerName = "work-images";
-    private readonly string ConnectionString = "DefaultEndpointsProtocol=https;AccountName=diplomaimages;AccountKey=uA5KzJtmS6TYvT+oc8boTL2bqRoJl6DxUerY2jR8V1kRxacLoHsiFyi2j5CQS1DIt/IY1VikQ+ue+ASttJXmQA==;EndpointSuffix=core.windows.net";
+    // private readonly string ConnectionString = "DefaultEndpointsProtocol=https;AccountName=diplomaimages;AccountKey=uA5KzJtmS6TYvT+oc8boTL2bqRoJl6DxUerY2jR8V1kRxacLoHsiFyi2j5CQS1DIt/IY1VikQ+ue+ASttJXmQA==;EndpointSuffix=core.windows.net";
 
 
     public ProductsController(
