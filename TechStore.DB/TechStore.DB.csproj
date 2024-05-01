@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <RootNamespace>TechStore.DB</RootNamespace>
+    <AssemblyName>TechStore.DB</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TechStore.Domain\TechStore.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
